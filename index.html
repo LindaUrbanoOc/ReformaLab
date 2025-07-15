@@ -1,0 +1,885 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reforma Laboral 2025 - ONE CONTACT</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #007bff 0%, #ff6b35 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-shrink: 0;
+        }
+        
+        .logo-container img {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            margin-right: 20px;
+        }
+        
+        .header-text {
+            flex-grow: 1;
+            min-width: 300px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.95;
+            margin-bottom: 0;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border-left: 5px solid #007bff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        
+        .section h2 {
+            color: #007bff;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #007bff;
+        }
+        
+        .highlight {
+            background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+            border: 1px solid #ff6b35;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #ff6b35;
+        }
+        
+        .important {
+            background: linear-gradient(135deg, #d4edda 0%, #a8e6cf 100%);
+            border: 1px solid #007bff;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #007bff;
+        }
+        
+        .warning {
+            background: linear-gradient(135deg, #f8d7da 0%, #fab1a0 100%);
+            border: 1px solid #ff6b35;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #ff6b35;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .stat-box {
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+            transition: transform 0.2s ease;
+        }
+        
+        .stat-box:hover {
+            transform: translateY(-2px);
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        th, td {
+            padding: 15px 12px;
+            text-align: left;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        th {
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            font-weight: bold;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .antes-despues {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .antes, .despues {
+            padding: 20px;
+            border-radius: 8px;
+        }
+        
+        .antes {
+            background: linear-gradient(135deg, #f8d7da 0%, #fab1a0 100%);
+            border-left: 4px solid #ff6b35;
+        }
+        
+        .despues {
+            background: linear-gradient(135deg, #d4edda 0%, #a8e6cf 100%);
+            border-left: 4px solid #007bff;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .badge {
+            background: #007bff;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            font-weight: bold;
+            display: inline-block;
+        }
+        
+        .badge.urgent {
+            background: #ff6b35;
+        }
+        
+        .badge.new {
+            background: linear-gradient(135deg, #007bff 0%, #ff6b35 100%);
+        }
+        
+        .orange-section {
+            border-left: 5px solid #ff6b35;
+        }
+        
+        .orange-section h2 {
+            color: #ff6b35;
+            border-bottom: 2px solid #ff6b35;
+        }
+        
+        .blue-section {
+            border-left: 5px solid #007bff;
+        }
+        
+        .blue-section h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+        }
+        
+        .final-section {
+            background: linear-gradient(135deg, #007bff 0%, #ff6b35 100%);
+            color: white;
+            border-left: none;
+            border-radius: 15px;
+        }
+        
+        .final-section h2 {
+            color: white;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+        }
+        
+        .contact-card {
+            background: rgba(255,255,255,0.15);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            backdrop-filter: blur(10px);
+        }
+        
+        .contact-logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+        
+        .contact-logo-container img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+        }
+        
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .antes-despues {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .stats {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 15px;
+            }
+            
+            .logo-container img {
+                width: 60px;
+                height: 60px;
+            }
+            
+            .contact-logo-container img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+        
+        @media print {
+            body {
+                background: white;
+                color: black;
+            }
+            
+            .container {
+                box-shadow: none;
+            }
+            
+            .header {
+                background: white;
+                color: black;
+                border-bottom: 2px solid #007bff;
+            }
+            
+            .section, .highlight, .important, .warning {
+                background: white !important;
+                border: 1px solid #e9ecef;
+            }
+            
+            .stat-box {
+                background: white !important;
+                color: black !important;
+                border: 1px solid #007bff;
+            }
+            
+            .final-section {
+                background: white !important;
+                color: black !important;
+            }
+            
+            .logo-container img,
+            .contact-logo-container img {
+                filter: grayscale(100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="logo.png" alt="Logo ONE CONTACT INTERNACIONAL S.A.S.">
+                    <div class="header-text">
+                        <h1>LEY 2466 DE 2025</h1>
+                        <p>Reforma Laboral - ONE CONTACT INTERNACIONAL S.A.S.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <!-- 1. NUESTRA SITUACIÓN ACTUAL -->
+            <div class="section blue-section">
+                <h2>🏢 NUESTRA SITUACIÓN ACTUAL</h2>
+                
+                <div class="stats">
+                    <div class="stat-box">
+                        <div class="stat-number">488</div>
+                        <div class="stat-label">Total Empleados</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">149</div>
+                        <div class="stat-label">Cambian a 44 horas</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">339</div>
+                        <div class="stat-label">Se mantienen igual</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">16</div>
+                        <div class="stat-label">Aprendices SENA</div>
+                    </div>
+                </div>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sede</th>
+                            <th>Empleados que pasan a 44 horas</th>
+                            <th>Total empleados</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>BOGOTÁ</td>
+                            <td><strong>62</strong></td>
+                            <td>202</td>
+                        </tr>
+                        <tr>
+                            <td>MEDELLÍN</td>
+                            <td><strong>59</strong></td>
+                            <td>171</td>
+                        </tr>
+                        <tr>
+                            <td>URABÁ</td>
+                            <td><strong>15</strong></td>
+                            <td>69</td>
+                        </tr>
+                        <tr>
+                            <td>BARRANQUILLA</td>
+                            <td><strong>13</strong></td>
+                            <td>46</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- 2. CAMBIOS EN HORARIOS -->
+            <div class="section orange-section">
+                <h2>⏰ CAMBIOS EN HORARIOS <span class="badge urgent">DICIEMBRE 2025</span></h2>
+                
+                <div class="highlight">
+                    <h3>🌙 HORARIO NOCTURNO CAMBIÓ</h3>
+                    <div class="antes-despues">
+                        <div class="antes">
+                            <h4>ANTES</h4>
+                            <p>Nocturno desde las <strong>9:00 PM</strong></p>
+                        </div>
+                        <div class="despues">
+                            <h4>AHORA</h4>
+                            <p>Nocturno desde las <strong>7:00 PM</strong></p>
+                        </div>
+                    </div>
+                    <p><strong>Artículo 160</strong> - Las últimas 2 horas (7-9 PM) ahora tienen recargo del 35%</p>
+                    <div class="warning" style="margin-top: 15px; padding: 15px; background: #fff3cd; border-left: 4px solid #ff6b35;">
+                        <p><strong>⚠️ IMPORTANTE:</strong> Este cambio entra en vigencia <strong>6 meses después</strong> de la sanción de la ley</p>
+                        <p><strong>Fecha de aplicación:</strong> <span style="color: #ff6b35; font-weight: bold;">25 de diciembre de 2025</span></p>
+                        <p><em>Ley sancionada: 25 de junio de 2025 + 6 meses = 25 de diciembre de 2025</em></p>
+                    </div>
+                </div>
+                
+                <div class="important">
+                    <h3>📅 TRABAJO EN DOMINGOS</h3>
+                    <p><strong>Artículo 179</strong> - Los domingos NO se pueden cambiar a otro día, salvo que esté en el contrato inicial</p>
+                    <p>✅ <strong>Nosotros estamos bien:</strong> No trabajamos domingos normalmente</p>
+                </div>
+                
+                <div class="warning">
+                    <h3>💰 RECARGOS DOMINICALES SUBEN GRADUALMENTE</h3>
+                    <ul>
+                        <li><strong>2025:</strong> 80% de recargo</li>
+                        <li><strong>2026:</strong> 90% de recargo</li>
+                        <li><strong>2027:</strong> 100% de recargo</li>
+                    </ul>
+                </div>
+
+                <div class="important">
+                    <h3>📋 EMPLEADOS DE 6 HORAS (339 empleados) - Artículos 180 y 181 CST</h3>
+                    <p><strong>Jornada especial de 36 horas semanales:</strong></p>
+                    <div class="highlight" style="background: #e8f4fd; border-left: 4px solid #007bff; margin: 15px 0;">
+                        <h4>🚫 NO tienen derecho a recargo dominical</h4>
+                        <p>Según los artículos 180 y 181 del CST, los trabajadores con jornada de 36 horas semanales:</p>
+                        <ul>
+                            <li><strong>NO reciben</strong> recargo del 75%, 80%, 90% o 100% por trabajo dominical</li>
+                            <li><strong>SÍ tienen derecho</strong> a descanso compensatorio remunerado cuando laboren en domingo</li>
+                            <li><strong>NO aplican</strong> los recargos nocturnos por trabajar después de 7 PM</li>
+                        </ul>
+                        <p><em>"Para el caso de la jornada de treinta y seis (36) horas semanales... el trabajador solo tendrá derecho a un descanso compensatorio remunerado cuando labore en domingo"</em></p>
+                    </div>
+                </div>
+
+                <div class="warning">
+                    <h3>💰 EMPLEADOS DE 8 HORAS (149 empleados) - Jornada 44 horas semanales</h3>
+                    <p><strong>Régimen NORMAL del Código Sustantivo del Trabajo:</strong></p>
+                    <div class="highlight" style="background: #fff8e1; border-left: 4px solid #ff6b35; margin: 15px 0;">
+                        <h4>✅ SÍ tienen derecho a recargo dominical COMPLETO</h4>
+                        <p>Los empleados de 8 horas diarias (44 horas semanales) cuando trabajan domingo:</p>
+                        <ul>
+                            <li><strong>RECIBEN recargo:</strong> 80% (2025) → 90% (2026) → 100% (2027)</li>
+                            <li><strong>MÁS día compensatorio:</strong> Según artículos 180 y 181</li>
+                            <li><strong>Trabajo ocasional</strong> (1-2 domingos/mes): Eligen recargo O compensatorio</li>
+                            <li><strong>Trabajo habitual</strong> (3+ domingos/mes): Reciben recargo Y compensatorio</li>
+                        </ul>
+                        <p><em>Aplica el artículo 179 modificado por la Ley 2466 de 2025</em></p>
+                    </div>
+                </div>
+
+                <div class="warning">
+                    <h3>⚠️ QUÉ DICE EXACTAMENTE LA REFORMA SOBRE DOMINICALES</h3>
+                    <p><strong>Artículo 179 modificado:</strong> "El trabajo en día de descanso obligatorio, o días de fiesta se remunera con un recargo del ciento por ciento (100%)"</p>
+                    
+                    <div class="highlight" style="background: #f8f9fa; border-left: 4px solid #007bff; margin: 15px 0; padding: 15px;">
+                        <h4>📋 RESUMEN DIFERENCIAL POR JORNADA:</h4>
+                        <ul>
+                            <li><strong>Jornada 44 horas (8h diarias):</strong> Aplica artículo 179 + artículos 180/181</li>
+                            <li><strong>Jornada 36 horas (6h diarias):</strong> Solo aplican artículos 180/181 (sin recargo)</li>
+                        </ul>
+                        <p><em>La reforma NO modifica los artículos 180 y 181, que dan el tratamiento especial a jornadas de 36 horas</em></p>
+                    </div>
+
+                    <div class="stats" style="margin: 20px 0;">
+                        <div class="stat-box" style="background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 100%);">
+                            <div class="stat-number">149</div>
+                            <div class="stat-label">Empleados CON recargo<br>dominical progresivo</div>
+                        </div>
+                        <div class="stat-box" style="background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);">
+                            <div class="stat-number">339</div>
+                            <div class="stat-label">Empleados SIN recargo<br>dominical (solo compensatorio)</div>
+                        </div>
+                    </div>
+
+                    <div class="warning" style="background: #fff3cd; border-left: 4px solid #ff6b35; margin: 20px 0; padding: 20px;">
+                        <h4>🔥 CASO ESPECIAL: Domingo + Lunes Festivo Seguidos</h4>
+                        <p><strong>Artículo 179, numeral 2:</strong> "Si con el domingo coincide otro día de descanso remunerado solo tendrá derecho el trabajador, si trabaja, al recargo establecido en el numeral anterior"</p>
+                        
+                        <table style="margin: 15px 0; width: 100%; font-size: 0.9em;">
+                            <thead>
+                                <tr style="background: #34495e; color: white;">
+                                    <th>Jornada</th>
+                                    <th>Domingo trabajado</th>
+                                    <th>Lunes festivo trabajado</th>
+                                    <th>Total a pagar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>44 horas (149)</strong></td>
+                                    <td>Recargo 80%/90%/100%</td>
+                                    <td>Recargo 80%/90%/100%</td>
+                                    <td>2 recargos + compensatorios</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>36 horas (339)</strong></td>
+                                    <td>Solo compensatorio</td>
+                                    <td>Solo compensatorio</td>
+                                    <td>2 compensatorios (sin recargo)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <p><strong>Importante:</strong> Cada día se trata por separado, no se "fusionan" los recargos. Son dos días de descanso obligatorio independientes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. HORAS EXTRAS -->
+            <div class="section blue-section">
+                <h2>⏱️ HORAS EXTRAS Y TRABAJO ADICIONAL</h2>
+                
+                <div class="highlight">
+                    <h3>📋 NUEVAS REGLAS - Artículos 162 y 22</h3>
+                    <ul>
+                        <li><strong>Límite:</strong> Máximo 2 horas por día y 12 por semana</li>
+                        <li><strong>Registro obligatorio:</strong> Llevar control detallado por trabajador</li>
+                        <li><strong>Entrega mensual:</strong> Dar relación de horas extras al trabajador</li>
+                        <li><strong>Sanción:</strong> Si no se pagan, prohíben horas extras por 6 meses</li>
+                    </ul>
+                </div>
+                
+                <div class="important">
+                    <h3>🔄 DÍA COMPENSATORIO OBLIGATORIO</h3>
+                    <p><strong>Artículo 179</strong> - Si alguien trabaja en su día de descanso, hay que darle otro día libre después</p>
+                    <div class="highlight" style="background: #fff8e1; border-left: 4px solid #ff6b35; margin: 10px 0; padding: 15px;">
+                        <h4>📊 APLICACIÓN DIFERENCIADA EN ONE CONTACT:</h4>
+                        <table style="margin: 10px 0; font-size: 0.9em;">
+                            <thead>
+                                <tr style="background: #34495e; color: white;">
+                                    <th>Tipo de empleado</th>
+                                    <th>Trabajo ocasional dominical<br>(1-2 por mes)</th>
+                                    <th>Trabajo habitual dominical<br>(3+ por mes)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>8 horas (149)</strong></td>
+                                    <td>Elige: Recargo O compensatorio</td>
+                                    <td>Recibe: Recargo Y compensatorio</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>6 horas (339)</strong></td>
+                                    <td>Solo compensatorio</td>
+                                    <td>Solo compensatorio</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. APRENDICES SENA -->
+            <div class="section orange-section">
+                <h2>🎓 APRENDICES SENA</h2>
+                
+                <div class="important">
+                    <h3>📊 NUESTRA SITUACIÓN</h3>
+                    <ul>
+                        <li>✅ Tenemos 16 aprendices (cumplimos la cuota)</li>
+                        <li>✅ Los actuales NO cambian</li>
+                        <li>⚠️ Los nuevos SÍ tienen cambios</li>
+                    </ul>
+                </div>
+                
+                <div class="highlight">
+                    <h3>🆕 PARA NUEVOS APRENDICES - Artículo 81</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tipo</th>
+                                <th>Primer año</th>
+                                <th>Segundo año</th>
+                                <th>Prestaciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Formación tradicional</td>
+                                <td>75% SMLV</td>
+                                <td>100% SMLV</td>
+                                <td>En fase práctica</td>
+                            </tr>
+                            <tr>
+                                <td>Universitarios</td>
+                                <td colspan="2">100% SMLV</td>
+                                <td>Completas</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>Importante:</strong> Ahora es contrato laboral a término fijo (máximo 3 años)</p>
+                </div>
+            </div>
+
+            <!-- 5. TELETRABAJO -->
+            <div class="section blue-section">
+                <h2>💻 TELETRABAJO</h2>
+                
+                <div class="highlight">
+                    <h3>🏠 TIPOS DE TELETRABAJO - Artículo 52</h3>
+                    <ul>
+                        <li><strong>Autónomo:</strong> Trabajar desde casa permanente</li>
+                        <li><strong>Híbrido:</strong> 2-3 días casa, resto oficina</li>
+                        <li><strong>Móvil:</strong> Sin lugar fijo</li>
+                        <li><strong>Temporal:</strong> Por emergencias</li>
+                        <li><strong>Transnacional:</strong> Desde otro país</li>
+                    </ul>
+                </div>
+                
+                <div class="important">
+                    <h3>📶 AUXILIO DE CONECTIVIDAD <span class="badge new">NUEVO</span></h3>
+                    <p><strong>Artículo 53</strong></p>
+                    <ul>
+                        <li>Reemplaza el auxilio de transporte para teletrabajadores</li>
+                        <li>Para quienes ganen menos de 2 salarios mínimos</li>
+                        <li>Mismo valor del auxilio de transporte</li>
+                        <li>SÍ cuenta para prestaciones sociales</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 6. PERSONAS CON DISCAPACIDAD -->
+            <div class="section orange-section">
+                <h2>♿ INCLUSIÓN LABORAL</h2>
+                
+                <div class="warning">
+                    <h3>📊 DEBEMOS CONTRATAR PERSONAS CON DISCAPACIDAD</h3>
+                    <p><strong>Artículo 15, numeral 17</strong></p>
+                    
+                    <div class="stats">
+                        <div class="stat-box">
+                            <div class="stat-number">9</div>
+                            <div class="stat-label">Personas mínimas<br>a contratar</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-number">2%</div>
+                            <div class="stat-label">Del total de<br>trabajadores</div>
+                        </div>
+                    </div>
+                    
+                    <p><strong>Cálculo:</strong> 488 empleados ÷ 100 × 2 = 9.76 → <strong>9 personas mínimo</strong></p>
+                </div>
+                
+                <div class="highlight">
+                    <h3>📅 CRONOGRAMA</h3>
+                    <ul>
+                        <li><strong>2025:</strong> Opcional - Preparar ajustes</li>
+                        <li><strong>2026:</strong> Obligatorio cumplir la cuota</li>
+                    </ul>
+                </div>
+                
+                <div class="important">
+                    <h3>📋 QUÉ DEBEMOS HACER</h3>
+                    <ul>
+                        <li>Adaptar puestos de trabajo (ajustes razonables)</li>
+                        <li>Verificar certificación del Ministerio de Salud</li>
+                        <li>Reportar contratos al MinTrabajo en 15 días</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 7. DEBIDO PROCESO -->
+            <div class="section blue-section">
+                <h2>⚖️ NUEVO PROCESO DISCIPLINARIO</h2>
+                
+                <div class="highlight">
+                    <h3>📋 6 PASOS OBLIGATORIOS - Artículo 115</h3>
+                    <ol>
+                        <li><strong>Comunicar por escrito</strong> que se abre proceso</li>
+                        <li><strong>Explicar los hechos</strong> detalladamente</li>
+                        <li><strong>Mostrar las pruebas</strong> al trabajador</li>
+                        <li><strong>Dar mínimo 5 días</strong> para que se defienda</li>
+                        <li><strong>Decidir y explicar</strong> por qué se tomó la decisión</li>
+                        <li><strong>Permitir apelación</strong> de la decisión</li>
+                    </ol>
+                </div>
+                
+                <div class="warning">
+                    <h3>📅 PLAZO IMPORTANTE</h3>
+                    <p>Tenemos <strong>12 meses</strong> (hasta junio 2026) para actualizar nuestro Reglamento Interno</p>
+                </div>
+            </div>
+
+            <!-- 8. PERMISOS -->
+            <div class="section orange-section">
+                <h2>📋 NUEVOS PERMISOS REMUNERADOS</h2>
+                
+                <div class="important">
+                    <h3>✅ PERMISOS AMPLIADOS - Artículo 15</h3>
+                    <ul>
+                        <li>Votar</li>
+                        <li>Citas médicas urgentes y de especialistas</li>
+                        <li>Reuniones del colegio como padre/madre</li>
+                        <li>Citaciones judiciales</li>
+                        <li>Emergencias familiares graves</li>
+                        <li><strong>🚴‍♂️ Nuevo:</strong> 1 día cada 6 meses si viene en bicicleta</li>
+                    </ul>
+                </div>
+                
+                <div class="highlight">
+                    <h3>👨‍👩‍👧‍👦 HORARIOS FLEXIBLES PARA CUIDADORES</h3>
+                    <p><strong>Artículo 46</strong> - Para quienes cuiden:</p>
+                    <ul>
+                        <li>Personas mayores</li>
+                        <li>Hijos menores</li>
+                        <li>Personas con discapacidad</li>
+                        <li>Enfermos graves</li>
+                    </ul>
+                    <p><strong>Plazo:</strong> Empleador tiene 15 días para responder</p>
+                </div>
+            </div>
+
+            <!-- 9. QUÉ HACER AHORA -->
+            <div class="section blue-section">
+                <h2>🎯 QUÉ HACER AHORA</h2>
+                
+                <div class="warning">
+                    <h3>🚨 URGENTE - YA VIGENTE</h3>
+                    <ul>
+                        <li>✅ <strong>Nómina:</strong> Calcular recargo nocturno desde las 7 PM</li>
+                        <li>✅ <strong>Operaciones:</strong> Confirmar horarios de 44 horas</li>
+                        <li>✅ <strong>RRHH:</strong> Aplicar nuevos permisos</li>
+                    </ul>
+                </div>
+                
+                <div class="highlight">
+                    <h3>📅 PRÓXIMOS MESES</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Cuándo</th>
+                                <th>Qué hacer</th>
+                                <th>Área responsable</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Julio 2025</td>
+                                <td>Recargo dominical 80%</td>
+                                <td>Nómina</td>
+                            </tr>
+                            <tr>
+                                <td>Dic 2025</td>
+                                <td>Actualizar reglamento</td>
+                                <td>Legal</td>
+                            </tr>
+                            <tr>
+                                <td>Jun 2026</td>
+                                <td>Contratar 9 personas con discapacidad</td>
+                                <td>RRHH</td>
+                            </tr>
+                            <tr>
+                                <td>Jun 2026</td>
+                                <td>Cuota discapacidad obligatoria</td>
+                                <td>RRHH</td>
+                            </tr>
+                            <tr>
+                                <td>Jul 2026</td>
+                                <td>Recargo dominical 90%</td>
+                                <td>Nómina</td>
+                            </tr>
+                            <tr>
+                                <td>Jul 2027</td>
+                                <td>Recargo dominical 100%</td>
+                                <td>Nómina</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="important">
+                    <h3>✅ RESUMEN PARA ONE CONTACT</h3>
+                    <ul>
+                        <li><strong>Impacto moderado:</strong> Solo 149 de 488 empleados cambian horario</li>
+                        <li><strong>Modelo compatible:</strong> No operamos 24/7 ni domingos</li>
+                        <li><strong>Empleados 6 horas:</strong> Mantienen régimen actual (sin recargos dominicales)</li>
+                        <li><strong>Oportunidad:</strong> Incluir talento con discapacidad</li>
+                        <li><strong>Preparación:</strong> Tiempo suficiente para ajustar procesos</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- SECCIÓN FINAL: CONTACTO Y SOPORTE -->
+            <div class="section final-section">
+                <div style="text-align: center;">
+                    <h2>📞 Contacto y Soporte</h2>
+                    
+                    <div class="contact-card">
+                        <p style="font-size: 1.1em; margin-bottom: 15px;">Para consultas sobre la implementación de la nueva jornada laboral, contactar al área legal.</p>
+                    </div>
+                    
+                    <div class="contact-logo-container">
+                        <img src="logo.png" alt="Logo ONE CONTACT INTERNACIONAL S.A.S.">
+                        <div>
+                            <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 15px;">
+                                <span style="font-size: 1.5em;">⚖️</span>
+                                <h3 style="margin: 0; font-size: 1.3em;">ONE CONTACT INTERNACIONAL S.A.S. - Área Legal</h3>
+                            </div>
+                            <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                                <span style="font-size: 1.2em;">📧</span>
+                                <p style="margin: 0; font-size: 1.1em; font-weight: bold;">Email: linda.urbano@onecontact.com.co</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card" style="margin-top: 30px;">
+                        <h3 style="color: white; margin-bottom: 15px;">⚠️ IMPORTANTE: Vigencia de los Cambios</h3>
+                        <div style="text-align: left; max-width: 600px; margin: 0 auto;">
+                            <p style="margin-bottom: 10px;"><strong>✅ YA VIGENTES (desde julio 15, 2025):</strong></p>
+                            <ul style="margin-bottom: 20px;">
+                                <li>Jornada de 44 horas semanales para 149 empleados</li>
+                                <li>Jornada nocturna desde las 7:00 PM</li>
+                                <li>Nuevo debido proceso disciplinario</li>
+                                <li>Permisos laborales ampliados</li>
+                                <li>Límites de horas extras (2 diarias/12 semanales)</li>
+                            </ul>
+                            
+                            <p style="margin-bottom: 10px;"><strong>📅 CON FECHAS ESPECÍFICAS:</strong></p>
+                            <ul>
+                                <li><strong>2025:</strong> Recargo dominical 80%</li>
+                                <li><strong>2026:</strong> Cuota discapacidad obligatoria (junio) + Recargo dominical 90% (julio)</li>
+                                <li><strong>2027:</strong> Recargo dominical 100%</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 30px; padding: 15px; background: rgba(255,255,255,0.1); border-radius: 10px;">
+                        <p style="font-size: 0.9em; opacity: 0.9; margin: 0;">
+                            Ley 2466 de 2025 - Reforma Laboral<br>
+                            Vigente desde junio 25, 2025
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+```
